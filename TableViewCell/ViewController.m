@@ -30,8 +30,10 @@
     self.tableView.dataSource = self;
     [self.view addSubview:self.tableView];
 
-   
+   //相同的tableview,只是根据不同的 类型判断cell该显示的界面,排列的顺序也是按照你注册的顺序
     [self.tableView registerClass:[ATypeTableViewCell class] forCellReuseIdentifier:@"AAAA"];
+    [self.tableView registerClass:[ATypeTableViewCell class] forCellReuseIdentifier:@"dddd"];
+    
     [self.tableView registerClass:[BTypeTableViewCell class] forCellReuseIdentifier:@"BBBB"];
     [self.tableView registerClass:[CTypeTableViewCell class] forCellReuseIdentifier:@"CCCC"];
     
@@ -41,14 +43,23 @@
     adapterA.reusedIdentifier = @"AAAA";
     adapterA.data             = @"我是一个小画家";
     adapterA.cellHeight       = 200;
-    adapterA.cellType         = 0;
+    adapterA.cellType         = KImageType;
     [self.adapters addObject:adapterA];
+    
+    
+    CellDataAdapter *adapterD  = [[CellDataAdapter alloc] init];
+    adapterD.reusedIdentifier  = @"dddd";
+    adapterD.data              = @"";
+    adapterD.cellHeight        = 180;
+    adapterD.cellType          = KLabelType;
+    [self.adapters addObject:adapterD];
+    
     
     CellDataAdapter *adapterB = [[CellDataAdapter alloc] init];
     adapterB.reusedIdentifier = @"BBBB";
     adapterB.data             = @"你是一只大灰狼";
     adapterB.cellHeight       = 250;
-    adapterB.cellType         = 1;
+    adapterB.cellType         = 0;
     [self.adapters addObject:adapterB];
     
     
@@ -56,13 +67,8 @@
     adapterC.reusedIdentifier  = @"CCCC";
     adapterC.data              = @"下雨了";
     adapterC.cellHeight        = 200;
-    adapterC.cellType          = 3;
+    adapterC.cellType          = 0;
     [self.adapters addObject:adapterC];
-    
-    
-    
-    
-    
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
@@ -74,11 +80,8 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
     CellDataAdapter *adapter    = _adapters[indexPath.row];
-    
     RootTableViewCell *rootCell = [tableView dequeueReusableCellWithIdentifier:adapter.reusedIdentifier];
-
     rootCell.indexPath          = indexPath;
-    
     rootCell.dataAdapter        = adapter;
     
     [rootCell loadData:adapter.data];

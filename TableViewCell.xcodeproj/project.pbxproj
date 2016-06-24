@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40031C261D1D1E1F0002CB7C /* 图片.png in Resources */ = {isa = PBXBuildFile; fileRef = 40031C251D1D1E1F0002CB7C /* 图片.png */; };
 		4016EFAC1D1C0E5A002DAD8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4016EFAB1D1C0E5A002DAD8A /* main.m */; };
 		4016EFAF1D1C0E5A002DAD8A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4016EFAE1D1C0E5A002DAD8A /* AppDelegate.m */; };
 		4016EFB21D1C0E5A002DAD8A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4016EFB11D1C0E5A002DAD8A /* ViewController.m */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		40031C251D1D1E1F0002CB7C /* 图片.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图片.png"; sourceTree = "<group>"; };
 		4016EFA71D1C0E5A002DAD8A /* TableViewCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4016EFAB1D1C0E5A002DAD8A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4016EFAD1D1C0E5A002DAD8A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -96,9 +98,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		40031C231D1D1B5C0002CB7C /* 不同cell的定制 */ = {
+			isa = PBXGroup;
+			children = (
+				4016EFE01D1C10D9002DAD8A /* ATypeTableViewCell.h */,
+				4016EFE11D1C10D9002DAD8A /* ATypeTableViewCell.m */,
+				4016EFE31D1C10F7002DAD8A /* BTypeTableViewCell.h */,
+				4016EFE41D1C10F7002DAD8A /* BTypeTableViewCell.m */,
+				4016EFE91D1CD7F2002DAD8A /* CTypeTableViewCell.h */,
+				4016EFEA1D1CD7F2002DAD8A /* CTypeTableViewCell.m */,
+			);
+			name = "不同cell的定制";
+			sourceTree = "<group>";
+		};
+		40031C241D1D1B9A0002CB7C /* 父类cell */ = {
+			isa = PBXGroup;
+			children = (
+				4016EFDD1D1C0E7E002DAD8A /* RootTableViewCell.h */,
+				4016EFDE1D1C0E7E002DAD8A /* RootTableViewCell.m */,
+			);
+			name = "父类cell";
+			sourceTree = "<group>";
+		};
 		4016EF9E1D1C0E5A002DAD8A = {
 			isa = PBXGroup;
 			children = (
+				40031C251D1D1E1F0002CB7C /* 图片.png */,
 				4016EFA91D1C0E5A002DAD8A /* TableViewCell */,
 				4016EFC31D1C0E5A002DAD8A /* TableViewCellTests */,
 				4016EFCE1D1C0E5A002DAD8A /* TableViewCellUITests */,
@@ -125,16 +150,10 @@
 				4016EFAE1D1C0E5A002DAD8A /* AppDelegate.m */,
 				4016EFB01D1C0E5A002DAD8A /* ViewController.h */,
 				4016EFB11D1C0E5A002DAD8A /* ViewController.m */,
+				40031C241D1D1B9A0002CB7C /* 父类cell */,
+				40031C231D1D1B5C0002CB7C /* 不同cell的定制 */,
 				4016EFE61D1C1442002DAD8A /* CellDataAdapter.h */,
 				4016EFE71D1C1442002DAD8A /* CellDataAdapter.m */,
-				4016EFE01D1C10D9002DAD8A /* ATypeTableViewCell.h */,
-				4016EFE11D1C10D9002DAD8A /* ATypeTableViewCell.m */,
-				4016EFE31D1C10F7002DAD8A /* BTypeTableViewCell.h */,
-				4016EFE41D1C10F7002DAD8A /* BTypeTableViewCell.m */,
-				4016EFE91D1CD7F2002DAD8A /* CTypeTableViewCell.h */,
-				4016EFEA1D1CD7F2002DAD8A /* CTypeTableViewCell.m */,
-				4016EFDD1D1C0E7E002DAD8A /* RootTableViewCell.h */,
-				4016EFDE1D1C0E7E002DAD8A /* RootTableViewCell.m */,
 				4016EFB31D1C0E5A002DAD8A /* Main.storyboard */,
 				4016EFB61D1C0E5A002DAD8A /* Assets.xcassets */,
 				4016EFB81D1C0E5A002DAD8A /* LaunchScreen.storyboard */,
@@ -278,6 +297,7 @@
 			files = (
 				4016EFBA1D1C0E5A002DAD8A /* LaunchScreen.storyboard in Resources */,
 				4016EFB71D1C0E5A002DAD8A /* Assets.xcassets in Resources */,
+				40031C261D1D1E1F0002CB7C /* 图片.png in Resources */,
 				4016EFB51D1C0E5A002DAD8A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

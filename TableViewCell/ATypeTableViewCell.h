@@ -8,6 +8,14 @@
 
 #import "RootTableViewCell.h"
 
+typedef enum : NSUInteger {
+
+    KImageType = 0,
+    KLabelType,
+
+
+} CellType;
+
 @interface ATypeTableViewCell : RootTableViewCell
 
 
