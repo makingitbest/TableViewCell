@@ -14,8 +14,6 @@
 		4016EFB51D1C0E5A002DAD8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4016EFB31D1C0E5A002DAD8A /* Main.storyboard */; };
 		4016EFB71D1C0E5A002DAD8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4016EFB61D1C0E5A002DAD8A /* Assets.xcassets */; };
 		4016EFBA1D1C0E5A002DAD8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4016EFB81D1C0E5A002DAD8A /* LaunchScreen.storyboard */; };
-		4016EFC51D1C0E5A002DAD8A /* TableViewCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4016EFC41D1C0E5A002DAD8A /* TableViewCellTests.m */; };
-		4016EFD01D1C0E5A002DAD8A /* TableViewCellUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4016EFCF1D1C0E5A002DAD8A /* TableViewCellUITests.m */; };
 		4016EFDF1D1C0E7E002DAD8A /* RootTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4016EFDE1D1C0E7E002DAD8A /* RootTableViewCell.m */; };
 		4016EFE21D1C10D9002DAD8A /* ATypeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4016EFE11D1C10D9002DAD8A /* ATypeTableViewCell.m */; };
 		4016EFE51D1C10F7002DAD8A /* BTypeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4016EFE41D1C10F7002DAD8A /* BTypeTableViewCell.m */; };
@@ -23,23 +21,6 @@
 		4016EFEB1D1CD7F2002DAD8A /* CTypeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4016EFEA1D1CD7F2002DAD8A /* CTypeTableViewCell.m */; };
 		4016F0301D1CDDCB002DAD8A /* UIView+SetRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 4016F02F1D1CDDCB002DAD8A /* UIView+SetRect.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		4016EFC11D1C0E5A002DAD8A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4016EF9F1D1C0E5A002DAD8A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4016EFA61D1C0E5A002DAD8A;
-			remoteInfo = TableViewCell;
-		};
-		4016EFCC1D1C0E5A002DAD8A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4016EF9F1D1C0E5A002DAD8A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4016EFA61D1C0E5A002DAD8A;
-			remoteInfo = TableViewCell;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		40031C251D1D1E1F0002CB7C /* 图片.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图片.png"; sourceTree = "<group>"; };
@@ -53,12 +34,6 @@
 		4016EFB61D1C0E5A002DAD8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4016EFB91D1C0E5A002DAD8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4016EFBB1D1C0E5A002DAD8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4016EFC01D1C0E5A002DAD8A /* TableViewCellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewCellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4016EFC41D1C0E5A002DAD8A /* TableViewCellTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCellTests.m; sourceTree = "<group>"; };
-		4016EFC61D1C0E5A002DAD8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4016EFCB1D1C0E5A002DAD8A /* TableViewCellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewCellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4016EFCF1D1C0E5A002DAD8A /* TableViewCellUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCellUITests.m; sourceTree = "<group>"; };
-		4016EFD11D1C0E5A002DAD8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4016EFDD1D1C0E7E002DAD8A /* RootTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTableViewCell.h; sourceTree = "<group>"; };
 		4016EFDE1D1C0E7E002DAD8A /* RootTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTableViewCell.m; sourceTree = "<group>"; };
 		4016EFE01D1C10D9002DAD8A /* ATypeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATypeTableViewCell.h; sourceTree = "<group>"; };
@@ -75,20 +50,6 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		4016EFA41D1C0E5A002DAD8A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4016EFBD1D1C0E5A002DAD8A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4016EFC81D1C0E5A002DAD8A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -125,8 +86,6 @@
 			children = (
 				40031C251D1D1E1F0002CB7C /* 图片.png */,
 				4016EFA91D1C0E5A002DAD8A /* TableViewCell */,
-				4016EFC31D1C0E5A002DAD8A /* TableViewCellTests */,
-				4016EFCE1D1C0E5A002DAD8A /* TableViewCellUITests */,
 				4016EFA81D1C0E5A002DAD8A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -135,8 +94,6 @@
 			isa = PBXGroup;
 			children = (
 				4016EFA71D1C0E5A002DAD8A /* TableViewCell.app */,
-				4016EFC01D1C0E5A002DAD8A /* TableViewCellTests.xctest */,
-				4016EFCB1D1C0E5A002DAD8A /* TableViewCellUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -171,24 +128,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		4016EFC31D1C0E5A002DAD8A /* TableViewCellTests */ = {
-			isa = PBXGroup;
-			children = (
-				4016EFC41D1C0E5A002DAD8A /* TableViewCellTests.m */,
-				4016EFC61D1C0E5A002DAD8A /* Info.plist */,
-			);
-			path = TableViewCellTests;
-			sourceTree = "<group>";
-		};
-		4016EFCE1D1C0E5A002DAD8A /* TableViewCellUITests */ = {
-			isa = PBXGroup;
-			children = (
-				4016EFCF1D1C0E5A002DAD8A /* TableViewCellUITests.m */,
-				4016EFD11D1C0E5A002DAD8A /* Info.plist */,
-			);
-			path = TableViewCellUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -209,42 +148,6 @@
 			productReference = 4016EFA71D1C0E5A002DAD8A /* TableViewCell.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4016EFBF1D1C0E5A002DAD8A /* TableViewCellTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4016EFD71D1C0E5A002DAD8A /* Build configuration list for PBXNativeTarget "TableViewCellTests" */;
-			buildPhases = (
-				4016EFBC1D1C0E5A002DAD8A /* Sources */,
-				4016EFBD1D1C0E5A002DAD8A /* Frameworks */,
-				4016EFBE1D1C0E5A002DAD8A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4016EFC21D1C0E5A002DAD8A /* PBXTargetDependency */,
-			);
-			name = TableViewCellTests;
-			productName = TableViewCellTests;
-			productReference = 4016EFC01D1C0E5A002DAD8A /* TableViewCellTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		4016EFCA1D1C0E5A002DAD8A /* TableViewCellUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4016EFDA1D1C0E5A002DAD8A /* Build configuration list for PBXNativeTarget "TableViewCellUITests" */;
-			buildPhases = (
-				4016EFC71D1C0E5A002DAD8A /* Sources */,
-				4016EFC81D1C0E5A002DAD8A /* Frameworks */,
-				4016EFC91D1C0E5A002DAD8A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4016EFCD1D1C0E5A002DAD8A /* PBXTargetDependency */,
-			);
-			name = TableViewCellUITests;
-			productName = TableViewCellUITests;
-			productReference = 4016EFCB1D1C0E5A002DAD8A /* TableViewCellUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -257,16 +160,6 @@
 					4016EFA61D1C0E5A002DAD8A = {
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = RFVL6M28MZ;
-					};
-					4016EFBF1D1C0E5A002DAD8A = {
-						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = RFVL6M28MZ;
-						TestTargetID = 4016EFA61D1C0E5A002DAD8A;
-					};
-					4016EFCA1D1C0E5A002DAD8A = {
-						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = RFVL6M28MZ;
-						TestTargetID = 4016EFA61D1C0E5A002DAD8A;
 					};
 				};
 			};
@@ -284,8 +177,6 @@
 			projectRoot = "";
 			targets = (
 				4016EFA61D1C0E5A002DAD8A /* TableViewCell */,
-				4016EFBF1D1C0E5A002DAD8A /* TableViewCellTests */,
-				4016EFCA1D1C0E5A002DAD8A /* TableViewCellUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -299,20 +190,6 @@
 				4016EFB71D1C0E5A002DAD8A /* Assets.xcassets in Resources */,
 				40031C261D1D1E1F0002CB7C /* 图片.png in Resources */,
 				4016EFB51D1C0E5A002DAD8A /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4016EFBE1D1C0E5A002DAD8A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4016EFC91D1C0E5A002DAD8A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,36 +212,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4016EFBC1D1C0E5A002DAD8A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4016EFC51D1C0E5A002DAD8A /* TableViewCellTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4016EFC71D1C0E5A002DAD8A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4016EFD01D1C0E5A002DAD8A /* TableViewCellUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		4016EFC21D1C0E5A002DAD8A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4016EFA61D1C0E5A002DAD8A /* TableViewCell */;
-			targetProxy = 4016EFC11D1C0E5A002DAD8A /* PBXContainerItemProxy */;
-		};
-		4016EFCD1D1C0E5A002DAD8A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4016EFA61D1C0E5A002DAD8A /* TableViewCell */;
-			targetProxy = 4016EFCC1D1C0E5A002DAD8A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4016EFB31D1C0E5A002DAD8A /* Main.storyboard */ = {
@@ -492,52 +340,6 @@
 			};
 			name = Release;
 		};
-		4016EFD81D1C0E5A002DAD8A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = TableViewCellTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wq.TableViewCellTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableViewCell.app/TableViewCell";
-			};
-			name = Debug;
-		};
-		4016EFD91D1C0E5A002DAD8A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = TableViewCellTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wq.TableViewCellTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableViewCell.app/TableViewCell";
-			};
-			name = Release;
-		};
-		4016EFDB1D1C0E5A002DAD8A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = TableViewCellUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wq.TableViewCellUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = TableViewCell;
-			};
-			name = Debug;
-		};
-		4016EFDC1D1C0E5A002DAD8A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = TableViewCellUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wq.TableViewCellUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = TableViewCell;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -555,24 +357,6 @@
 			buildConfigurations = (
 				4016EFD51D1C0E5A002DAD8A /* Debug */,
 				4016EFD61D1C0E5A002DAD8A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4016EFD71D1C0E5A002DAD8A /* Build configuration list for PBXNativeTarget "TableViewCellTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4016EFD81D1C0E5A002DAD8A /* Debug */,
-				4016EFD91D1C0E5A002DAD8A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4016EFDA1D1C0E5A002DAD8A /* Build configuration list for PBXNativeTarget "TableViewCellUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4016EFDB1D1C0E5A002DAD8A /* Debug */,
-				4016EFDC1D1C0E5A002DAD8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
