@@ -10,22 +10,17 @@
 
 @implementation CTypeTableViewCell
 
-
-//设置cell的相关属性
 - (void)setUp {
+    
     self.backgroundColor = [UIColor greenColor];
-
 }
 
-//cell的界面布局
 - (void)interfaceLayout {
 
 }
 
-//cell上数据的加载
 - (void)loadData: (id)data {
 
 }
-
 
 @end

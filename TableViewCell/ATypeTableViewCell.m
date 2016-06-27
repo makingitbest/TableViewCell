@@ -19,13 +19,11 @@
 
 @implementation ATypeTableViewCell
 
-//设置cell的相关属性
 - (void)setUp {
     
     self.backgroundColor = [UIColor yellowColor];
 }
 
-//cell的界面布局
 - (void)interfaceLayout {
     
     self.iconImage                  = [[UIImageView alloc] init];
@@ -38,21 +36,18 @@
     self.titleLabel.font            = [UIFont systemFontOfSize:18];
     self.titleLabel.numberOfLines   = 0;
     [self addSubview:self.titleLabel];
-    
-
 }
 
-//cell上数据的加载
-- (void)loadData: (id)data{
+- (void)loadData:(id)data{
     
-    if (self.dataAdapter.cellType == KImageType) {
+    if (self.dataAdapter.cellType == kImageType) {
         self.iconImage.image  = [UIImage imageNamed:@"图片"];
         self.iconImage.x      = 10;
         self.iconImage.y      = 50;
         self.iconImage.width  = 100;
         self.iconImage.height = 100;
 
-    }else if (self.dataAdapter.cellType == KLabelType){
+    }else if (self.dataAdapter.cellType == kLabelType){
     
         self.titleLabel.text = @"我是一只小小鸟";
         self.titleLabel.x  = self.iconImage.right + 20;
@@ -61,6 +56,5 @@
         [self.titleLabel sizeToFit];
     }
 }
-
 
 @end

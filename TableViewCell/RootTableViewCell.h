@@ -11,16 +11,24 @@
 
 @interface RootTableViewCell : UITableViewCell
 
-@property (nonatomic, weak)CellDataAdapter *dataAdapter;
-@property (nonatomic, weak)NSIndexPath     *indexPath;
+@property (nonatomic, weak) CellDataAdapter *dataAdapter;
+@property (nonatomic, weak) NSIndexPath     *indexPath;
 
-//设置cell的相关属性
+/**
+ *  设置cell的相关属性
+ */
 - (void)setUp;
 
-//cell的界面布局
+/**
+ *  cell的界面布局
+ */
 - (void)interfaceLayout;
 
-//cell上数据的加载
-- (void)loadData: (id)data;
+/**
+ *  cell上数据的加载
+ *
+ *  @param data 外部加载的数据
+ */
+- (void)loadData:(id)data;
 
 @end

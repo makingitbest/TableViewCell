@@ -10,8 +10,8 @@
 
 @implementation CellDataAdapter
 
-+(instancetype)cellDataAdapter:(NSString *)reusedIdentifier andData:(id)data andCellHeight:(CGFloat)cellHeight andCellType:(NSInteger)cellType {
-    
++ (instancetype)cellDataAdapter:(NSString *)reusedIdentifier data:(id)data cellHeight:(CGFloat)cellHeight cellType:(NSInteger)cellType {
+
     CellDataAdapter * adapter = [[[self class] alloc] init];
     adapter.reusedIdentifier  = reusedIdentifier;
     adapter.data              = data;

@@ -11,7 +11,7 @@
 
 @implementation RootTableViewCell
 
--(instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
+- (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
 
 
     if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
@@ -25,18 +25,15 @@
     return self;
 }
 
-//设置cell的相关属性
 - (void)setUp {
 
 }
 
-//cell的界面布局
 - (void)interfaceLayout {
 
 }
 
-//cell上数据的加载
-- (void)loadData: (id)data {
+- (void)loadData:(id)data {
 
 }
 

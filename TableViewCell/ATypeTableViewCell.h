@@ -10,13 +10,11 @@
 
 typedef enum : NSUInteger {
 
-    KImageType = 0,
-    KLabelType,
-
-
-} CellType;
+    kImageType = 0,
+    kLabelType,
+    
+} ECellType;
 
 @interface ATypeTableViewCell : RootTableViewCell
-
 
 @end
