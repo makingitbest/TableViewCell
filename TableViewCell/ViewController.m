@@ -17,7 +17,6 @@
 @property(nonatomic, strong)UITableView *tableView;
 @property(nonatomic, strong)NSMutableArray <CellDataAdapter *> *adapters;
 
-
 @end
 
 @implementation ViewController
@@ -33,7 +32,6 @@
    //相同的tableview,只是根据不同的 类型判断cell该显示的界面,排列的顺序也是按照你注册的顺序
     [self.tableView registerClass:[ATypeTableViewCell class] forCellReuseIdentifier:@"AAAA"];
     [self.tableView registerClass:[ATypeTableViewCell class] forCellReuseIdentifier:@"dddd"];
-    
     [self.tableView registerClass:[BTypeTableViewCell class] forCellReuseIdentifier:@"BBBB"];
     [self.tableView registerClass:[CTypeTableViewCell class] forCellReuseIdentifier:@"CCCC"];
     
@@ -46,7 +44,6 @@
     adapterA.cellType         = KImageType;
     [self.adapters addObject:adapterA];
     
-    
     CellDataAdapter *adapterD  = [[CellDataAdapter alloc] init];
     adapterD.reusedIdentifier  = @"dddd";
     adapterD.data              = @"";
@@ -54,14 +51,12 @@
     adapterD.cellType          = KLabelType;
     [self.adapters addObject:adapterD];
     
-    
     CellDataAdapter *adapterB = [[CellDataAdapter alloc] init];
     adapterB.reusedIdentifier = @"BBBB";
     adapterB.data             = @"你是一只大灰狼";
     adapterB.cellHeight       = 250;
     adapterB.cellType         = 0;
     [self.adapters addObject:adapterB];
-    
     
     CellDataAdapter * adapterC = [[CellDataAdapter alloc] init];
     adapterC.reusedIdentifier  = @"CCCC";
@@ -75,7 +70,6 @@
     
     return _adapters.count;
 }
-
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
@@ -92,11 +86,6 @@
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
 
     return _adapters[indexPath.row].cellHeight;
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 @end
