@@ -27,6 +27,7 @@
 
 - (void)setUp {
 
+    self.selectionStyle = UITableViewCellSelectionStyleNone;
 }
 
 - (void)interfaceLayout {
