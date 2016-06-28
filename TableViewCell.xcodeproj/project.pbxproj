@@ -16,6 +16,7 @@
 		4016EFDF1D1C0E7E002DAD8A /* RootTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4016EFDE1D1C0E7E002DAD8A /* RootTableViewCell.m */; };
 		4016EFE81D1C1442002DAD8A /* CellDataAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4016EFE71D1C1442002DAD8A /* CellDataAdapter.m */; };
 		4016F0301D1CDDCB002DAD8A /* UIView+SetRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 4016F02F1D1CDDCB002DAD8A /* UIView+SetRect.m */; };
+		4044A6CB1D228976006898D4 /* demo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4044A6CA1D228976006898D4 /* demo.png */; };
 		40A2AB201D20F68B0091011D /* ContentLabelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A2AB1F1D20F68B0091011D /* ContentLabelCell.m */; };
 		40A2AB231D20F9760091011D /* NSString+LabelWidthAndHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A2AB221D20F9760091011D /* NSString+LabelWidthAndHeight.m */; };
 		40A2AB261D2116360091011D /* UIView+ConvenientMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A2AB251D2116360091011D /* UIView+ConvenientMethod.m */; };
@@ -40,6 +41,7 @@
 		4016EFE71D1C1442002DAD8A /* CellDataAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellDataAdapter.m; sourceTree = "<group>"; };
 		4016F02E1D1CDDCB002DAD8A /* UIView+SetRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SetRect.h"; sourceTree = "<group>"; };
 		4016F02F1D1CDDCB002DAD8A /* UIView+SetRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SetRect.m"; sourceTree = "<group>"; };
+		4044A6CA1D228976006898D4 /* demo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo.png; sourceTree = "<group>"; };
 		40A2AB1E1D20F68B0091011D /* ContentLabelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentLabelCell.h; sourceTree = "<group>"; };
 		40A2AB1F1D20F68B0091011D /* ContentLabelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentLabelCell.m; sourceTree = "<group>"; };
 		40A2AB211D20F9760091011D /* NSString+LabelWidthAndHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LabelWidthAndHeight.h"; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 		4016EF9E1D1C0E5A002DAD8A = {
 			isa = PBXGroup;
 			children = (
+				4044A6CA1D228976006898D4 /* demo.png */,
 				4016EFA91D1C0E5A002DAD8A /* TableViewCell */,
 				4016EFA81D1C0E5A002DAD8A /* Products */,
 			);
@@ -193,6 +196,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4044A6CB1D228976006898D4 /* demo.png in Resources */,
 				4016EFBA1D1C0E5A002DAD8A /* LaunchScreen.storyboard in Resources */,
 				4016EFB71D1C0E5A002DAD8A /* Assets.xcassets in Resources */,
 				4016EFB51D1C0E5A002DAD8A /* Main.storyboard in Resources */,
