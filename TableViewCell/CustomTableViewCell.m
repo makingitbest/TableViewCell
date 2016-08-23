@@ -1,19 +1,18 @@
 //
-//  BaseTableViewCell.m
+//  CustomTableViewCell.m
 //  TableViewCell
 //
-//  Created by 王巧 on 16/6/23.
+//  Created by WangQiao on 16/8/23.
 //  Copyright © 2016年 wq. All rights reserved.
 //
 
-#import "RootTableViewCell.h"
+#import "CustomTableViewCell.h"
 
-
-@implementation RootTableViewCell
+@implementation CustomTableViewCell
 
 - (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
-
-
+    
+    
     if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
         
         [self setUp];
@@ -26,16 +25,16 @@
 }
 
 - (void)setUp {
-
+    
     self.selectionStyle = UITableViewCellSelectionStyleNone;
 }
 
 - (void)interfaceLayout {
-
+    
 }
 
 - (void)loadData:(id)data {
-
+    
 }
 
 @end

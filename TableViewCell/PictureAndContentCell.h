@@ -6,7 +6,7 @@
 //  Copyright © 2016年 wq. All rights reserved.
 //
 
-#import "RootTableViewCell.h"
+#import "CustomTableViewCell.h"
 
 typedef enum {
 
@@ -15,6 +15,6 @@ typedef enum {
     
 } EPictureAndContentCellType;
 
-@interface PictureAndContentCell : RootTableViewCell
+@interface PictureAndContentCell : CustomTableViewCell
 
 @end

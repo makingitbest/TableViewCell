@@ -1,17 +1,24 @@
 //
-//  BaseTableViewCell.h
+//  CustomTableViewCell.h
 //  TableViewCell
 //
-//  Created by 王巧 on 16/6/23.
+//  Created by WangQiao on 16/8/23.
 //  Copyright © 2016年 wq. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 #import "CellDataAdapter.h"
 
-@interface RootTableViewCell : UITableViewCell
+@interface CustomTableViewCell : UITableViewCell
 
+/**
+ *  数据适配器
+ */
 @property (nonatomic, weak) CellDataAdapter *dataAdapter;
+
+/**
+ *  indexPath
+ */
 @property (nonatomic, weak) NSIndexPath     *indexPath;
 
 /**

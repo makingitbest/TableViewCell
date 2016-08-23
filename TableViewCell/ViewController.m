@@ -105,7 +105,7 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
     CellDataAdapter *adapter    = _adapters[indexPath.row];
-    RootTableViewCell *rootCell = [tableView dequeueReusableCellWithIdentifier:adapter.reusedIdentifier];
+    CustomTableViewCell *rootCell = [tableView dequeueReusableCellWithIdentifier:adapter.reusedIdentifier];
     rootCell.indexPath          = indexPath;
     rootCell.dataAdapter        = adapter;
     
