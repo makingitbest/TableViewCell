@@ -27,14 +27,15 @@
     
     [super viewDidLoad];
     
-    self.tableView            =[[UITableView alloc] initWithFrame:[UIScreen mainScreen].bounds style:UITableViewStylePlain];
+    self.tableView            =[[UITableView alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.tableView.delegate   = self;
     self.tableView.dataSource = self;
     [self.view addSubview:self.tableView];
     
-    // 相同的tableview,只是根据不同的 类型判断cell该显示的界面,排列的顺序也是按照你注册的顺序
-    [self.tableView registerClass:[PictureAndContentCell class] forCellReuseIdentifier:@"PictureAndContentCell"];
+    // 相同的tableview,只是根据不同的 类型判断cell该显示的界面,排列的顺序也是按照你添加数据的顺序
+    
     [self.tableView registerClass:[ContentLabelCell class] forCellReuseIdentifier:@"ContentLabelCell"];
+    [self.tableView registerClass:[PictureAndContentCell class] forCellReuseIdentifier:@"PictureAndContentCell"];
     
     self.adapters = [NSMutableArray array];
     
@@ -72,7 +73,7 @@
     {
         NSString *string          = @"我是文字较少的那条数据";
         CGFloat   height          = [string heightWithStringAttribute:@{NSFontAttributeName: [UIFont systemFontOfSize:12.f]}
-                                                  fixedWidth:Width - 20];
+                                                           fixedWidth:Width - 20];
         CellDataAdapter * adapter = [CellDataAdapter cellDataAdapter:@"ContentLabelCell" data:string cellHeight:height + 20 cellType:0];
         [self.adapters addObject:adapter];
     }

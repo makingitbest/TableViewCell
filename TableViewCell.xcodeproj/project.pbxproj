@@ -78,7 +78,7 @@
 			name = "不同cell的定制";
 			sourceTree = "<group>";
 		};
-		40031C241D1D1B9A0002CB7C /* 父类cell */ = {
+		40031C241D1D1B9A0002CB7C /* cell相关类 */ = {
 			isa = PBXGroup;
 			children = (
 				4016EFE61D1C1442002DAD8A /* CellDataAdapter.h */,
@@ -86,7 +86,20 @@
 				40134BD91D6C54D60057B4F3 /* CustomTableViewCell.h */,
 				40134BDA1D6C54D60057B4F3 /* CustomTableViewCell.m */,
 			);
-			name = "父类cell";
+			name = "cell相关类";
+			sourceTree = "<group>";
+		};
+		40134BDC1D6C58330057B4F3 /* 工具类 */ = {
+			isa = PBXGroup;
+			children = (
+				40A2AB241D2116360091011D /* UIView+ConvenientMethod.h */,
+				40A2AB251D2116360091011D /* UIView+ConvenientMethod.m */,
+				4016F02E1D1CDDCB002DAD8A /* UIView+SetRect.h */,
+				4016F02F1D1CDDCB002DAD8A /* UIView+SetRect.m */,
+				40A2AB211D20F9760091011D /* NSString+LabelWidthAndHeight.h */,
+				40A2AB221D20F9760091011D /* NSString+LabelWidthAndHeight.m */,
+			);
+			name = "工具类";
 			sourceTree = "<group>";
 		};
 		4016EF9E1D1C0E5A002DAD8A = {
@@ -113,7 +126,8 @@
 				4016EFAE1D1C0E5A002DAD8A /* AppDelegate.m */,
 				4016EFB01D1C0E5A002DAD8A /* ViewController.h */,
 				4016EFB11D1C0E5A002DAD8A /* ViewController.m */,
-				40031C241D1D1B9A0002CB7C /* 父类cell */,
+				40134BDC1D6C58330057B4F3 /* 工具类 */,
+				40031C241D1D1B9A0002CB7C /* cell相关类 */,
 				40031C231D1D1B5C0002CB7C /* 不同cell的定制 */,
 				4016EFB31D1C0E5A002DAD8A /* Main.storyboard */,
 				4016EFB61D1C0E5A002DAD8A /* Assets.xcassets */,
@@ -127,12 +141,6 @@
 		4016EFAA1D1C0E5A002DAD8A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				40A2AB241D2116360091011D /* UIView+ConvenientMethod.h */,
-				40A2AB251D2116360091011D /* UIView+ConvenientMethod.m */,
-				4016F02E1D1CDDCB002DAD8A /* UIView+SetRect.h */,
-				4016F02F1D1CDDCB002DAD8A /* UIView+SetRect.m */,
-				40A2AB211D20F9760091011D /* NSString+LabelWidthAndHeight.h */,
-				40A2AB221D20F9760091011D /* NSString+LabelWidthAndHeight.m */,
 				4016EFAB1D1C0E5A002DAD8A /* main.m */,
 			);
 			name = "Supporting Files";
