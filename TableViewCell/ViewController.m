@@ -33,7 +33,6 @@
     [self.view addSubview:self.tableView];
     
     // 相同的tableview,只是根据不同的 类型判断cell该显示的界面,排列的顺序也是按照你添加数据的顺序
-    
     [self.tableView registerClass:[ContentLabelCell class] forCellReuseIdentifier:@"ContentLabelCell"];
     [self.tableView registerClass:[PictureAndContentCell class] forCellReuseIdentifier:@"PictureAndContentCell"];
     
@@ -94,7 +93,6 @@
         [self.adapters addObject:adapter];
     }
 }
-
 
 #pragma mark - UITableViewDelegate, UITableViewDataSource
 
